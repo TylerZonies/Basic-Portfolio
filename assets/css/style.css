@@ -1,0 +1,76 @@
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header{
+    background-color: rgb(247, 243, 243);
+    border-bottom: 5px #07073E;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    padding: 10 10 0 10;
+    position: relative;
+}
+
+#hdElement{
+    width: 70%;
+    height: 50%;
+    background-color: rgb(247, 243, 243);
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+h1{
+    position: relative;
+    top: -35%;
+    text-align: center;
+
+}
+#name{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    font-size: 15px;
+    float: left;
+    height: 100%;
+    width: 33%;
+
+}
+
+#page-links{
+    float: right;
+}
+
+#bodyBio{
+    background: #fff;
+    height: 50%;
+    width: 70%;
+    margin: auto;
+}
+
+#bioTit{
+    width: 99%;
+    margin:auto;
+    background: blue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.linkB{
+    border-right-color: black;
+    border-right-style: inset;
+    border-right-width: 3px;
+}
