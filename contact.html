@@ -4,30 +4,83 @@
         
         <title>My Portfolio</title>
 
+        <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
         <meta charset="UTF-8">
         
-        <link rel="stylepage" type="text/css" href="assets/css/style.css">
-
     </head>
     <body>
 
         <header>
-            <div id="name">
-    
-                <h1>Tyler Zonies</h1>
-                               
-            </div>
+            
+            <div id="hdElement" class="clearfix">            
+                                
+                <div id="name">
+                
+                    <h1>Tyler Zonies</h1>
+                                  
+                </div>
+                                  
+                <div id="page-links">
+                                
+                    <a class="linkB" href="index.html">About</a>
                       
-            <div id="page-links">
-
-                <a id="about" href="index.html">About</a>
-   
-                <a id="portfolio" href="portfolio.html">Portfilio</a>
-                   
-                <a id="contact" href="contact.html">Contact Me</a>
-                           
+                    <a class="linkB" href="portfolio.html">Portfilio</a>
+                      
+                    <a href="contact.html">Contact Me</a>
+                                  
+                </div>
+                
             </div>
+                            
         </header>
+        <div id="bodyBio" class="clearfix">
 
+            <div id="bioTit">
+
+                <h2>Contact Me</h2>
+
+            </div>
+
+            <div class="bioGraph">
+
+                Name:
+
+                <form>
+
+                    <input type = "text" name = "first_name" value = "" maxlength = "100" />
+
+                </form>
+
+            </div>
+
+            <div class="bioGraph">
+
+                Subject:
+
+                <form>
+
+                    <input type="text" name="subject" value="" maxlength="100" />
+
+                </form>
+                
+                
+
+            </div>
+
+            <div class="bioGraph">
+
+                Message:
+
+                <form>
+
+                    <input class="msg" type="text" name="message" value="" maxlength="1500" />
+
+                </form>
+                
+            </div>
+        </div>
     </body>
 </html>

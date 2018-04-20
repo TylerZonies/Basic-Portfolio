@@ -5,36 +5,55 @@
 }
 
 body{
-    background-color: black;
+    background-image: url(../images/cardboard.jpg);
     margin: 0;
     padding: 0;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    width: 100%;
+    line-height: 150%;
+    font-size: 18px;
 }
+
 header{
     background-color: rgb(247, 243, 243);
-    border-bottom: 5px #07073E;
+    border-bottom-width: 2px;
+    border-bottom-color: #07073E;
+    border-bottom-style: solid;
     height: 80px;
     width: 100%;
     margin: 0;
-    padding: 10 10 0 10;
+    padding: 0;
     position: relative;
 }
 
 #hdElement{
-    width: 70%;
+    width: 60%;
     height: 50%;
     background-color: rgb(247, 243, 243);
     position: absolute;
     bottom: 0;
-    left: 15%;
+    left: 20%;
+}
+
+.bioGraph{
+    width: 99%;
+    margin: 0 auto;
+    padding-bottom: 1px;
+}
+
+.bioPic{
+    float: left;
+    margin-right: 3px;
 }
 
 h1{
     position: relative;
     top: -35%;
     text-align: center;
-
+    font-size: 28px;
 }
+
 #name{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -43,7 +62,7 @@ h1{
     font-size: 15px;
     float: left;
     height: 100%;
-    width: 33%;
+    width: 25%;
 
 }
 
@@ -53,24 +72,78 @@ h1{
 
 #bodyBio{
     background: #fff;
-    height: 50%;
-    width: 70%;
+    width: 60%;
     margin: auto;
+    border-radius: 5px;
+}
+
+h2{
+    position: relative;
+    top: 3px;
 }
 
 #bioTit{
     width: 99%;
-    margin:auto;
-    background: blue;
+    height: 40px;
+    margin: 5px auto;
+    border-bottom: 2px #07073E solid;
+    padding: 0;
 }
 
 a{
     text-decoration: none;
     color: black;
+    padding-left: 8px;
 }
 
 .linkB{
     border-right-color: black;
-    border-right-style: inset;
-    border-right-width: 3px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding: 0 8px;
+}
+
+.bioText{
+    text-indent: 20px;
+}
+
+.cprght{
+    text-align: center;
+    text-indent: 0;
+    color: grey;
+    font-size: 14px;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: darkslategrey;
+    border-top: 5px rgb(94, 92, 128) solid;
+}
+
+.portImg{
+    height: 200px;
+    width: 200px;
+    margin: 0 20px 20px 0;
+    float: left;
+    display: block;
+    border-radius: 5px;
+}
+
+.portImgR{
+    float: none;
+    margin-right: auto;
+}
+
+.profGraph{
+    width: 100%;
+}
+
+.msg{
+    height: 100px;
+    width: 99.5%;
+    margin-bottom: 10px;
 }
