@@ -147,3 +147,38 @@ footer{
     width: 99.5%;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1200px){
+h1{
+    font-size: 23px;
+    color: black;
+}
+header{
+    background-color: blue;
+    border-bottom-color: white;
+}
+#name{
+    background-color: white;
+}
+#hdElement{
+    background-color: blue;
+}
+}
+
+@media screen and (max-width: 980px){
+h1{
+    font-size: 20px;
+}
+header{
+    background-color: black;
+}
+#hdElement{
+    background-color: black;
+}
+a{
+    color: white;
+}
+.linkB{
+    border-right-color: white;
+}
+}
